@@ -17,12 +17,12 @@ int valvePin = 6;
 //timer varaibles
 unsigned long startTime1 = millis();
 unsigned long endTime1;
-long interval1 = 100;
+long interval1 = 60000;
 unsigned long startTime2 = millis();
 unsigned long endTime2;
 long interval2 = 100;
 int minutes = -1;
-int hours = 2;
+int hours = 6;
 int timeInt = 1;
 int newTimeInt;
 int aNum = hours;
